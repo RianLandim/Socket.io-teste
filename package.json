@@ -1,0 +1,19 @@
+{
+  "name": "telemedicina_websocket",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "rian_landimm",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "nodemon": "^2.0.14",
+    "socket.io": "^4.3.1"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  }
+}
